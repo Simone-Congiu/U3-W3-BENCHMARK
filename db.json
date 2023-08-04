@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "email": "simone44c@gmail.com",
+      "password": "$2a$10$UKP5EpE0SCBf5Bzvoq5apOwQU3cHX5L85ZaU0Zwje7rvykKYsZSk6",
+      "nome": "simone",
+      "cognome": "congiu",
+      "id": 1
+    }
+  ]
+}

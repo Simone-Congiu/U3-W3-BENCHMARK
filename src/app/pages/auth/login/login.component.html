@@ -1,0 +1,17 @@
+<form>
+  <input
+    class="form-control"
+    type="email"
+    name="email"
+    placeholder="inserisci email"
+    [(ngModel)]="data.email"
+  />
+  <input
+    class="form-control"
+    type="password"
+    name="password"
+    placeholder="inserisci password"
+    [(ngModel)]="data.password"
+  />
+  <button class="btn btn-success" (click)="accedi()">Accedi</button>
+</form>

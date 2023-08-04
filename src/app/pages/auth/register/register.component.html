@@ -1,0 +1,31 @@
+<form>
+  <input
+    class="form-control"
+    type="text"
+    name="nome"
+    placeholder="inserisci il nome"
+    [(ngModel)]="form.nome"
+  />
+  <input
+    class="form-control"
+    type="text"
+    name="cognome"
+    placeholder="inserisci il cognome"
+    [(ngModel)]="form.cognome"
+  />
+  <input
+    class="form-control"
+    type="email"
+    name="email"
+    placeholder="inserisci email"
+    [(ngModel)]="form.email"
+  />
+  <input
+    class="form-control"
+    type="password"
+    name="password"
+    placeholder="inserisci password"
+    [(ngModel)]="form.password"
+  />
+  <button class="btn btn-success" (click)="registrati()">Registrati</button>
+</form>
